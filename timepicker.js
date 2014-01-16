@@ -151,9 +151,9 @@
             $this.children(".bgtimetext").append("<input type='text' class='pgMinutes pgTime'/>:");
             $this.children(".bgtimetext").append("<input type='text' class='pgSeconds pgTime'/>");
             $selected = $this.children(".bgtimetext").children(".pgSeconds");
-            $this.css("width", 100);
+            //$this.css("width", 100);
             if ($format == "12") {
-                $this.css("width", 120);
+                //$this.css("width", 120);
                 $this.children(".bgtimetext").append("<input type='text' class='pgMode pgTime' value='" + $mode + "'/>");
                 $selected = $this.children(".bgtimetext").children(".pgMode");
             }
