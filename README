@@ -1,0 +1,41 @@
+jq-Timepicker
+
+Is a jQuery timepicker plugin, I developed it because i needed one like this, if you need it feel free to use it.
+
+Examples
+
+create one with am-pm format at 8 am
+			$("#timepicker").timepicker({ hours: 8, minutes: 0, seconds: 0, mode: "am" });
+			
+create one with a 24 hour format at 8 hours
+      $("#timepicker").timepicker({ hours: 8, minutes: 0, seconds: 0, format: "24" });
+
+
+show
+Display the time picker
+example
+    $("#timepicker").timepicker("show");
+
+hide
+Hide the time picker
+example
+    $("#timepicker").timepicker("hide");
+
+update
+update the values of the time picker
+Example
+    $("#timepicker").timepicker("update", { hours: 8, minutes: 0, secconds: 0, mode:"am" });
+
+getValues24
+get the values in a 24 hour format
+Example:
+      $("#format12").timepicker("getValues24");
+      
+disable
+disable the timepicker
+Example
+      //enable
+      $("#datepicker").timepicker("disable", false);
+      //disable
+      $("#datepicker").timepicker("disable", true);
+    
